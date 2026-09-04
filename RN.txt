@@ -1,0 +1,30 @@
+admin@lubuntu:~/tcc/apps$ mkdir RNEv00
+admin@lubuntu:~/tcc/apps$ cd RNEv00
+admin@lubuntu:~/tcc/apps/RNEv00$ ls
+admin@lubuntu:~/tcc/apps/RNEv00$ npm init -y
+Wrote to /home/admin/tcc/apps/RNEv00/package.json:
+
+{
+  "name": "rnev00",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
+
+
+admin@lubuntu:~/tcc/apps/RNEv00$ npm install \
+  expo@52.0.0 \
+  react@18.3.1 \
+  react-native@0.76.0 \
+  react-dom@18.3.1 \
+  react-native-web@0.19.13 \
+  @expo/cli@0.18.0 \
+  --legacy-peer-deps
+
+admin@lubuntu:~/tcc/apps/RNEv00$ npm install @expo/metro-runtime@4.0.1 --legacy-peer-deps
